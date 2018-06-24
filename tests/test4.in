@@ -1,0 +1,11 @@
+.text
+.globl main
+	main:
+	lui   $a1, 1024
+	and   $a1, $a1, $a1
+	andi  $a1, $a1, 0 
+	slti  $t1, $t2, -100
+	sltiu $t1, $t2, -100
+	ori   $a1, $a1, 0
+	xori  $a1, $a1, 0
+	

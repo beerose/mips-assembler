@@ -1,0 +1,5 @@
+.text
+.globl main
+	main:
+	add $s0, $s1, $s2			# comment
+	addi $t0, $s3, -12

@@ -1,0 +1,7 @@
+.text
+.globl main
+	main:
+	addi $5,$a1, 16
+	lui  $t1,100
+	lui  $t2,50
+	sub  $t1,$t2, $t3
